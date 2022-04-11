@@ -8,7 +8,8 @@ class Main {
 		F f3;
 		F f4;
 		F f5;
-		F temp;
+		F temp1;
+		F temp2;
 		int ten;
 		int zero;
 		int one;
@@ -30,11 +31,11 @@ class Main {
 		test = zero < ten;
 
 		while(test) {
-			temp = a2.f;
-			a1.f = temp; //a1.f = a2.f
+			temp1 = a2.f;
+			a1.f = temp1; //a1.f = a2.f
 
-			temp = a3.f;
-			a2.f = temp; //a2.f = a3.f
+			temp2 = a3.f;
+			a2.f = temp2; //a2.f = a3.f
 
 			ten = ten - one;
 			test = zero < ten;
@@ -57,7 +58,16 @@ class F {}
 /*
  * 1
  * Main.main
- * 
- *
+ * 4
+ * f1,f4
+ * f1,f5
+ * f4,f5
+ * f2,f5
  */
 
+/*
+ * YES
+ * YES
+ * YES
+ * NO
+ */
