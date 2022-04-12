@@ -38,7 +38,7 @@ class A {
  */
 
 /*
+ * YES
+ * YES
  * NO
- * YES
- * YES
  */
