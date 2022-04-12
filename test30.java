@@ -7,7 +7,7 @@ class Main {
 		int zero;
 		int one;
 		int i;
-		int ret;
+		A ret;
 		B b;
 
 		a2 = new A();
@@ -29,24 +29,29 @@ class Main {
 	}
 }
 
-class A {}
+class A {
+	public A bar(A x, A y, A z){
+		return x;
+	}
+}
 
-class B {
-	public int bar(A x, A y, A z) {
-		int ret;
-		ret = 1;
+class B extends A{
+	public A bar(A x, A y, A z) {
+		A p;
+		p = new A();
 
-		return ret;
+		return p;
 	}
 }
 
 /*
  * 2
  * Main.main
- * 3
+ * 4
  * a1,a2
  * a1,a3
  * a2,a3
+ * a1,ret
  * B.bar
  * 3
  * x,y
@@ -58,6 +63,7 @@ class B {
  * YES
  * YES
  * YES
+ * NO
  * YES
  * YES
  * YES
