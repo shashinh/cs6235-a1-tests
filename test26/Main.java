@@ -36,5 +36,5 @@ class C extends B {
 
 /*
  * YES
- * YES
+ * NO
  */

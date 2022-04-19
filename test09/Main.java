@@ -14,6 +14,7 @@ class Main {
 		
 		a1 = new A();
 		a2 = new A();
+		a3 = new A();
 
 		if(test) {
 			a1 = a2;

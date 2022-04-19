@@ -17,6 +17,8 @@ class A {
 	F f;
 }
 
+class F { }
+
 /*
  * 1
  * Main.main

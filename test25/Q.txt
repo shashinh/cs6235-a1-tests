@@ -1,0 +1,7 @@
+2
+B.bar
+1
+x,y
+B.fooBar
+1
+p,q

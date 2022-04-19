@@ -81,5 +81,5 @@ class B {
 
 /*
  * YES
- * NO
+ * YES
  */
